@@ -1,0 +1,5 @@
+
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(Ðå™®þÿÿÿÿ8Î¨ñø—.
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8®Éðø—.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( µî¾ûÿÿÿÿ

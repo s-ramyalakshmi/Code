@@ -1,0 +1,10 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ïüÁğš.
+t	java:S127!"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ş¼Ş¢8áùêš.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( µî¾ûÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ïüÁğš.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8áùêš.
+D
+java:S1481"'Remove this unused "in" local variable.(Ö•÷Î8õëÄäš.
