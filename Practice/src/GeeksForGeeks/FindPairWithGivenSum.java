@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @author ramyalakshmi.s created on 2020-08-09
  */
 
+//url : https://practice.geeksforgeeks.org/problems/find-all-pairs-whose-sum-is-x/0
 class Pair {
     int u, v;
     Pair(int a, int b) {

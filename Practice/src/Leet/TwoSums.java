@@ -5,6 +5,8 @@ import java.util.Scanner;
 /**
  * @author ramyalakshmi.s created on 2020-08-07
  */
+
+// url : https://leetcode.com/problems/two-sum/
 public class TwoSums {
 
     private static final Scanner scanner = new Scanner(System.in);

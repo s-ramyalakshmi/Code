@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 // Sliding window with O(n) using extra space to store last index of character [to make the sub string unique]
 
+// url : https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 public class LongestSubstring2 {
 
     public static void main(String[] args) {

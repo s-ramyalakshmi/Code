@@ -5,6 +5,8 @@ import java.util.Scanner;
 /**
  * @author ramyalakshmi.s created on 2020-08-08
  */
+
+//url : https://leetcode.com/problems/zigzag-conversion/
 public class ZigZagConvertion {
 
     public static void main(String[] args) {

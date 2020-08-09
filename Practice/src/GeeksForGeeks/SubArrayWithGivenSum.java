@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * @author ramyalakshmi.s created on 2020-08-09
  */
+//url : https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0
 public class SubArrayWithGivenSum {
 
     public static void main(String[] args) {

@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 // Sliding window method O(n2)
 
+// url : https://leetcode.com/problems/longest-substring-without-repeating-characters/
 public class LongestSubstring {
 
     public static void main(String[] args) {

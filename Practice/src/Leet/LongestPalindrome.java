@@ -6,6 +6,8 @@ import java.util.Scanner;
 /**
  * @author ramyalakshmi.s created on 2020-08-08
  */
+
+// url : https://leetcode.com/problems/longest-palindromic-substring/
 public class LongestPalindrome {
 
     public static void main(String[] args) {
