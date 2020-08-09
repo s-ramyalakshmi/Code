@@ -1,4 +1,4 @@
-package Leet;
+package GeeksForGeeks;
 
 import java.util.Scanner;
 
