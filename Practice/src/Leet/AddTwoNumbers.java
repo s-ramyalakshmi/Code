@@ -7,49 +7,45 @@ import java.util.Scanner;
  */
 
 //url : https://leetcode.com/problems/add-two-numbers/
+
 public class AddTwoNumbers {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-//        int n = scanner.nextInt();
-//        int m = scanner.nextInt();
 
-        int[] num = new int[3];
-        num[0] = 1;
-        num[1] = 2;
-        num[2] = 3;
-        ListNode l1;
-        ListNode a;
-        for(int i = 0; i < 3; i++) {
-//            int num = scanner.nextInt();
-            a = new ListNode(num[i], null);
-            l1 = a;
-            l1 = l1.next;
-         }
-
-        ListNode l2;
-        for(int i = 0; i < 3; i++) {
-//            int num = scanner.nextInt();
-            l2 = new ListNode(num[i], null);
-            l2 = l2.next;
-        }
-
-        //System.out.println(addTwoNumbers(l1, l2));
+        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3, null)));
+        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4,null)));
 
     }
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
+        ListNode ans = new ListNode(0);
+        ListNode res = ans;
 
-        ListNode sum = null;
-        int num1 = 0;
-        while(l1 != null) {
-            num1 = (num1*10) + l1.val;
-            num1 *= 10;
-            l1 = l1.next;
+        int carry = 0;
+        while(l1 != null || l2 != null) {
+            int x = l1 != null ? l1.val : 0;
+            int y = l2 != null ? l2.val : 0;
+
+            int sum = carry + x + y;
+            carry = sum / 10;
+
+            res.next = new ListNode(sum % 10);
+            res = res.next;
+
+            if(l1 != null)
+                l1 = l1.next;
+
+            if(l2 != null)
+                l2 = l2.next;
+
         }
 
+        if(carry > 0) {
+            res.next = new ListNode(carry);
+        }
 
-        return sum;
+        return ans.next;
     }
 }
 
