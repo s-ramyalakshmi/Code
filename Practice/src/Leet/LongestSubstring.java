@@ -22,7 +22,7 @@ public class LongestSubstring {
     public static int lengthOfLongestSubstring(String s) {
         int res = 0;
         int n = s.length();
-
+        //abcabcbb
         for(int i = 0; i < n; i++) {
             boolean visited[] = new boolean[256];
             Arrays.fill(visited, false);

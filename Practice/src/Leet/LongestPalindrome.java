@@ -30,10 +30,12 @@ public class LongestPalindrome {
             }
         }
 
+        //for substring length = 1
         int length = 1;
         for(int i = 0; i < n; i++)
             dp[i][i] = true;
-
+        //bababd
+        //for substring length = 2
         int start = 0;
         for(int i = 0; i < n-1; i++) {
             if(s.charAt(i) == s.charAt(i+1)) {
@@ -43,7 +45,7 @@ public class LongestPalindrome {
             }
         }
 
-        for(int k = 3; k <= n; k++) {
+        for(int k = 3; k <= n; k++) { //length of substring
             for(int i = 0; i < n - k + 1; i++) {
 
                 int j = i + k - 1;

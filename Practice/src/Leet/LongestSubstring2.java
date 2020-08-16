@@ -23,11 +23,9 @@ public class LongestSubstring2 {
     public static int lengthOfLongestSubstring(String s) {
         int res = 0;
         int n = s.length();
-
         int i = 0;
         int[] lastIndex = new int[256];
         Arrays.fill(lastIndex, -1);
-
         for(int j = 0; j < n; j++) {
             i = Math.max(i, lastIndex[s.charAt(j)]+1);
             res = Math.max(res, j - i + 1);
