@@ -1,0 +1,9 @@
+
+<
+java:S1659*"Declare "j" on a separate line.(í‘ñö8Ì†¿.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ðÃ 
+C
+java:S1659*"&Declare "maxIndex" on a separate line.(í‘ñö8Ì†¿.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÐýÜá8Ö¹é¾.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â³Ü8«¶ß¿.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¤¢Ùúÿÿÿÿ8«¶ß¿.

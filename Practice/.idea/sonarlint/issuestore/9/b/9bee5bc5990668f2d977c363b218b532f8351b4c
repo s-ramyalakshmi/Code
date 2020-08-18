@@ -1,0 +1,7 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹¬Üùÿÿÿÿ8ûÉŠğ½.
+i
+java:S18713"LThis branch's code block is the same as the block for the branch on line 44.(å¥‡8™öæğ½.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ğÃ 
+i
+java:S18710"LThis branch's code block is the same as the block for the branch on line 41.(ãã×é8Íßæğ½.

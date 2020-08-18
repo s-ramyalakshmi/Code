@@ -1,0 +1,14 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÂëœÂ¿.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íµ¨
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8‹ø›Â¿.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÂëœÂ¿.
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(«¶ïÊ8ü»œÂ¿.
+C
+java:S1659>"!Declare "len" on a separate line.(üŸ¢ÿÿÿÿÿ8ÖäÁ¿.
+A
+java:S1659*"Declare "j" on a separate line.(á”æåşÿÿÿÿ8àÍìÁ¿.
+]	java:S125"<This block of commented-out lines of code should be removed.(¸¥é“üÿÿÿÿ8Ğ†ÍÂ¿.
