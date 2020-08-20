@@ -23,15 +23,6 @@ public class FindNumberOfIslandDFS {
             }
             System.out.println(countIsland(a, n, m));
         }
-        ArrayList<ArrayList<Integer>> arl = new ArrayList<>();
-        Integer[][] a = arl.stream().map(u -> u.toArray(new Integer[0])).toArray(Integer[][]::new);
-        int n = 5;
-        int m = 9;
-        int[][] a = new int[n][];
-        for (int i = 0; i < n; i++) {
-            ArrayList<Integer> row = arl.get(i);
-            a[i] = row.toArray(new int[m]);
-        }
     }
 
     private static int countIsland(int[][] a, int n, int m) {
